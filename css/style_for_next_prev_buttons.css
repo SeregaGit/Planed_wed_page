@@ -1,0 +1,17 @@
+.outside{
+    background: linear-gradient(to top, black, white);
+}
+
+.bx-next{
+    display: inline-block;
+    background-image: url("../images/Next.png");
+    height: 140px;
+    width: 66px;
+}
+
+.bx-prev{
+    display: inline-block;
+    background-image: url("../images/Previous.png");
+    height: 140px;
+    width: 66px;
+}
