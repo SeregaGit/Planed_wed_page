@@ -156,10 +156,7 @@
     margin: 0 auto;
 
 }
-.tabs_navigation{
-    border: 1px solid black;
 
-}
 .tabs_navigation_contain {
     display: block;
     background-color: #212120;
@@ -202,6 +199,7 @@
 }
 .tab_link:hover{
     background-color: #87d37c;
+    outline: none;
 }
 
 .search_line {
@@ -228,7 +226,37 @@
 
 #tabs-1 {
     margin: 125px 0 125px 0;
-    border: 0px solid black;
+
+
+    text-align: center;
+}
+#tabs-2 {
+    margin: 125px 0 125px 0;
+
+
+    text-align: center;
+}
+#tabs-3 {
+    margin: 125px 0 125px 0;
+
+
+    text-align: center;
+}
+#tabs-4 {
+    margin: 125px 0 125px 0;
+
+
+    text-align: center;
+}
+#tabs-5 {
+    margin: 125px 0 125px 0;
+
+
+    text-align: center;
+}
+#tabs-6 {
+    margin: 125px 0 125px 0;
+
 
     text-align: center;
 }
@@ -236,7 +264,7 @@
 .first{
     display: inline-block;
 
-    border: 0px solid red;
+
 
     width: 275px;
     height: 370px;
@@ -421,7 +449,7 @@
     margin-bottom: 100px;
 }
 
-.gallery{
+#gallery{
     height: 890px;
     background: url("../images/background_gallery.jpg");
 
@@ -484,7 +512,7 @@
 
 /* Стили для спрайт-линии */
 
-.sprite_pic{
+#sprite_pic{
     background-color: #212120;
 }
 
@@ -594,13 +622,13 @@
 /* Стили для АЙ-Фрейма*/
 
 
-.block_gradient{
+#block_gradient{
 
     position: absolute;
     height: 1080px;
     width: 100%;
 
-    top: 3707px;
+    top: 3854px;
 
     pointer-events: none;
 
