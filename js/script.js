@@ -1,5 +1,6 @@
 $( "#tabs_navigation" ).tabs();
 
+
 $('.pics_gallery_contain').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -17,6 +18,7 @@ $('.pics_gallery_contain').magnificPopup({
         }
     }
 });
+
 
 $('.bxslider').bxSlider(
     {

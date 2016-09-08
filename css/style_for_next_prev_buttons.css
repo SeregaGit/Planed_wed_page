@@ -1,12 +1,18 @@
 .outside{
-    background: linear-gradient(to top, black, white);
+    position: relative;
+    top: -300px;
 }
 
+.next-prev_buttons_position{
+    position: relative;
+
+}
 .bx-next{
     display: inline-block;
     background-image: url("../images/Next.png");
     height: 140px;
     width: 66px;
+    float: right;
 }
 
 .bx-prev{
@@ -14,4 +20,6 @@
     background-image: url("../images/Previous.png");
     height: 140px;
     width: 66px;
+
+
 }

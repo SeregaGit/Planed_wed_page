@@ -156,10 +156,7 @@
     margin: 0 auto;
 
 }
-#tabs_navigation{
-    border: 1px solid black;
 
-}
 .tabs_navigation_contain {
     display: block;
     background-color: #212120;
@@ -631,7 +628,7 @@
     height: 1080px;
     width: 100%;
 
-    top: 3707px;
+    top: 3854px;
 
     pointer-events: none;
 
